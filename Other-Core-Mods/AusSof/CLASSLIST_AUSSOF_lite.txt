@@ -1,0 +1,130 @@
+AUSSOF_LITE_mas for A3          by massi
+---------------------------------------------------------------------------
+
+CLASSLIST
+
+FACTION NAMES: 
+mas_aus_amulti  = "AUS-SOF(Multi)"
+mas_aus_caor1  = "AUS-SOF(DPDU)"
+mas_aus_daor2  = "AUS-SOF(DPCU)"
+mas_aus_ewint  = "AUS-SOF(Arctic)"
+mas_aus_gspec  = "AUS-SOF(Special-Troops)"
+mas_aus_idiver  = "AUS-SOF(Divers)"
+mas_aus_jparas  = "AUS-SOF(Paras)"
+mas_aus_kswat  = "AUS-SOF(CT)"
+mas_aus_lnav  = "AUS-SOF(Navy-CT)";
+mas_aus_mamcu  = "AUS-SOF(AMCU)";
+
+---------------------------------------------------------------------------
+
+Version: v 1             
+---------------------------------------------------------------------------
+
+UNITS:
+
+MULTI
+"B_mas_aus_recon_F", "B_mas_aus_recon_OP_F", "B_mas_aus_recon_OPS_F", "B_mas_aus_recon_JTAC_F", "B_mas_aus_recon_TL_F", "B_mas_aus_recon_medic_F", "B_mas_aus_recon_exp_F", "B_mas_aus_recon_brc_F", "B_mas_aus_recon_M_F", "B_mas_aus_recon_AR_F", "B_mas_aus_recon_MG_F", "B_mas_aus_recon_MG3_F", "B_mas_aus_recon_LAT_F", "B_mas_aus_recon_AT_F", "B_mas_aus_recon_AA_F", "B_mas_aus_recon_wmort_F", "B_mas_aus_recon_smort_F"
+DPDU  
+"B_mas_aus_recon_F_ca", "B_mas_aus_recon_OP_F_ca", "B_mas_aus_recon_OPS_F_ca", "B_mas_aus_recon_JTAC_F_ca", "B_mas_aus_recon_TL_F_ca", "B_mas_aus_recon_medic_F_ca", "B_mas_aus_recon_exp_F_ca", "B_mas_aus_recon_brc_F_ca", "B_mas_aus_recon_M_F_ca", "B_mas_aus_recon_AR_F_ca", "B_mas_aus_recon_MG_F_ca", "B_mas_aus_recon_MG3_F_ca", "B_mas_aus_recon_LAT_F_ca", "B_mas_aus_recon_AT_F_ca", "B_mas_aus_recon_AA_F_ca"
+DPCU
+"B_mas_aus_recon_F_da", "B_mas_aus_recon_OP_F_da", "B_mas_aus_recon_OPS_F_da", "B_mas_aus_recon_JTAC_F_da", "B_mas_aus_recon_TL_F_da", "B_mas_aus_recon_medic_F_da", "B_mas_aus_recon_exp_F_da", "B_mas_aus_recon_brc_F_da", "B_mas_aus_recon_M_F_da", "B_mas_aus_recon_AR_F_da", "B_mas_aus_recon_MG_F_da", "B_mas_aus_recon_MG3_F_da", "B_mas_aus_recon_LAT_F_da", "B_mas_aus_recon_AT_F_da", "B_mas_aus_recon_AA_F_da"
+ARCTIC
+"B_mas_aus_recon_F_gw", "B_mas_aus_recon_OP_F_gw", "B_mas_aus_recon_OPS_F_gw", "B_mas_aus_recon_JTAC_F_gw", "B_mas_aus_recon_TL_F_gw", "B_mas_aus_recon_medic_F_gw", "B_mas_aus_recon_exp_F_gw", "B_mas_aus_recon_brc_F_gw", "B_mas_aus_recon_M_F_gw", "B_mas_aus_recon_AR_F_gw", "B_mas_aus_recon_MG_F_gw", "B_mas_aus_recon_MG3_F_gw", "B_mas_aus_recon_LAT_F_gw", "B_mas_aus_recon_AT_F_gw", "B_mas_aus_recon_AA_F_gw"
+DIVERS
+"B_mas_aus_diver_TL_F", "B_mas_aus_diver_F", "B_mas_aus_diver_rec_F", "B_mas_aus_diver_Med_F", "B_mas_aus_diver_exp_F", "B_mas_aus_diverUn_TL_F", "B_mas_aus_diverUn_F", "B_mas_aus_diverUn_rec_F", "B_mas_aus_diverUn_Med_F", "B_mas_aus_diverUn_exp_F"
+PARAS
+"B_mas_aus_recon_F_jp", "B_mas_aus_recon_OP_F_jp", "B_mas_aus_recon_OPS_F_jp", "B_mas_aus_recon_JTAC_F_jp", "B_mas_aus_recon_TL_F_jp", "B_mas_aus_recon_medic_F_jp", "B_mas_aus_recon_exp_F_jp", "B_mas_aus_recon_brc_F_jp", "B_mas_aus_recon_M_F_jp", "B_mas_aus_recon_AR_F_jp", "B_mas_aus_recon_MG_F_jp", "B_mas_aus_recon_LAT_F_jp", "B_mas_aus_recon_AT_F_jp", "B_mas_aus_recon_AA_F_jp"
+CT
+"B_mas_aus_recon_F_ks", "B_mas_aus_recon_TL_F_ks", "B_mas_aus_recon_medic_F_ks", "B_mas_aus_recon_exp_F_ks", "B_mas_aus_recon_brc_F", "B_mas_aus_recon_M_F_ks", "B_mas_aus_recon_AR_F_ks"
+NAVY CT
+"B_mas_aus_recon_F_ln", "B_mas_aus_recon_cbrn_F_ln", "B_mas_aus_recon_TL_F_ln", "B_mas_aus_recon_medic_F_ln", "B_mas_aus_recon_exp_F_ln", "B_mas_aus_recon_brc_F_ln", "B_mas_aus_recon_M_F_ln", "B_mas_aus_recon_AR_F_ln"
+AMCU
+"B_mas_aus_recon_F_ma", "B_mas_aus_recon_OP_F_ma", "B_mas_aus_recon_OPS_F_ma", "B_mas_aus_recon_JTAC_F_ma", "B_mas_aus_recon_TL_F_ma", "B_mas_aus_recon_medic_F_ma", "B_mas_aus_recon_exp_F_ma", "B_mas_aus_recon_brc_F_ma", "B_mas_aus_recon_M_F_ma", "B_mas_aus_recon_AR_F_ma", "B_mas_aus_recon_MG_F_ma", "B_mas_aus_recon_MG3_F_ma", "B_mas_aus_recon_LAT_F_ma", "B_mas_aus_recon_AT_F_ma", "B_mas_aus_recon_AA_F_ma"
+GHILLIE SNIPERS
+"B_mas_aus_spotter_F", "B_mas_aus_sniper_F"
+SPECIAL SUPPORT
+"B_mas_aus_recon_OP_F_cbrn", "B_mas_aus_recon_OP_F_pcu", "B_mas_aus_recon_UniP_F", "B_mas_aus_recon_UniA_F", "B_mas_aus_recon_UniR_F", "B_mas_aus_recon_UniN_F"
+
+WEAPONS BOXES:
+"Box_mas_aus_Wps_F"   weapons and ammo
+"Box_mas_aus_Sup_F"   equipment
+
+UNIFORMS, VESTS, HEADGEAR, GOOGLES:
+"NVGoggles_mas_aus_h", "NVGoggles_mas_aus_hr", "NVGoggles_mas_aus_hv", "U_mas_aus_B_CombatUniform_multi", "U_mas_aus_B_CombatUniform_S_multi", "U_mas_aus_B_CombatUniform_S_SWAT", "U_mas_aus_B_CombatUniform_T_multi", "U_mas_aus_B_CombatUniform_aor1", "U_mas_aus_B_CombatUniform_S_aor1", "U_mas_aus_B_CombatUniform_T_aor1", "U_mas_aus_B_CombatUniform_aor2", "U_mas_aus_B_CombatUniform_S_aor2", "U_mas_aus_B_CombatUniform_T_aor2", "U_mas_aus_B_CombatUniform_aor3", "U_mas_aus_B_CombatUniform_S_aor3", "U_mas_aus_B_CombatUniform_T_aor3", "U_mas_aus_B_CombatUniform_amcu", "U_mas_aus_B_CombatUniform_S_amcu", "U_mas_aus_B_CombatUniform_T_amcu", "U_mas_aus_B_CombatUniform_wint", "U_mas_aus_B_CombatUniform_pcu", "U_mas_aus_B_CombatUniform_mcu", "U_mas_aus_B_CombatUniform_wint2", "U_mas_aus_B_CombatUniform_pcu2", "U_mas_aus_B_CombatUniform_mcu2", "U_mas_aus_B_Wetsuit", "U_mas_aus_B_GhillieSuit", "V_mas_aus_PlateCarrier1_rgr", "V_mas_aus_PlateCarrier1_green", "V_mas_aus_PlateCarrier1_swat", "V_mas_aus_PlateCarrier1_tan", "V_mas_aus_PlateCarrier1_wint", "V_mas_aus_PlateCarrierAR_rgr", "V_mas_aus_PlateCarrierAR_green", "V_mas_aus_PlateCarrierAR_swat", "V_mas_aus_PlateCarrierAR_tan", "V_mas_aus_PlateCarrierAR_wint", "V_mas_aus_PlateCarrierLR_rgr", "V_mas_aus_PlateCarrierLR_green", "V_mas_aus_PlateCarrierLR_swat", "V_mas_aus_PlateCarrierLR_tan", "V_mas_aus_PlateCarrierLR_wint", "H_mas_aus_Booniehat_mul", "H_mas_aus_Booniehat_aor1", "H_mas_aus_Booniehat_aor2", "H_mas_aus_Booniehat_amcu", "H_mas_aus_Booniehat_aor3", "H_mas_aus_opscore", "H_mas_aus_opscorn", "H_mas_aus_opscore_gog", "H_mas_aus_opscorn_gog", "H_mas_aus_opscore_g", "H_mas_aus_opscore_gog_g", "H_mas_aus_opscore_w", "H_mas_aus_opscore_gog_w", "H_mas_aus_opscore_b", "H_mas_aus_opscore_gog_b", "H_mas_aus_opscore_t", "H_mas_aus_opscore_gog_t", "H_mas_aus_opscore_aor1", "H_mas_aus_opscore_gog_aor1", "H_mas_aus_opscore_aor2", "H_mas_aus_opscore_gog_aor2", "H_mas_aus_opscore_amcu", "H_mas_aus_opscore_gog_amcu", "H_mas_aus_ach", "H_mas_aus_ach_gog", "H_mas_aus_ach_aor1", "H_mas_aus_ach_gog_aor1", "H_mas_aus_ach_amcu", "H_mas_aus_ach_aor2", "H_mas_aus_ach_gog_aor2", "H_mas_aus_ach_b", "H_mas_aus_ach_gog_b", "H_mas_aus_Beret", "H_mas_aus_Beret_r", "H_mas_aus_Beret_a",   "H_mas_aus_Beret_n", "H_mas_aus_headset", "H_mas_aus_beanie_w", "H_mas_aus_mich", "H_mas_aus_mich_b", "H_mas_aus_mich_v", "H_mas_aus_mich_w", "U_mas_aus_B_Wetunif", "V_mas_aus_RebreatherB", "H_mas_aus_airframe", "H_mas_aus_airframe_d", "H_mas_aus_airframe_v", "H_mas_aus_airframe_m", "H_mas_aus_airframe_w", "U_mas_aus_B_suite_WINT", "U_mas_aus_B_suite_CQB", "U_mas_aus_B_suite_VEG", "H_mas_aus_beanie_b", "H_mas_aus_beanie_gog", "H_mas_aus_beanie_gogw", "H_mas_aus_headset_b", "H_mas_aus_hood", "H_mas_aus_hood_w", "V_mas_aus_PlateCarrierRF_rgr", "V_mas_aus_PlateCarrierRF_green", "V_mas_aus_PlateCarrierRF_swat", "V_mas_aus_PlateCarrierRF_tan", "V_mas_aus_PlateCarrierRF_wint"
+"G_mas_aus_beard"
+"G_mas_aus_beard_gog"
+"G_mas_aus_gog"
+"G_mas_aus_mask"
+"G_mas_aus_jumpmask"
+"G_mas_aus_beard_mask"
+"G_mas_aus_beard_gog"
+"G_mas_aus_gasmask"
+"G_mas_aus_shemag"
+"G_mas_aus_shemag_gog"
+"G_mas_aus_bala_T"
+"G_mas_aus_balaM_T"
+"G_mas_aus_wrap_T"
+"G_mas_aus_wrap_gog_T"
+"G_mas_aus_mask_b"
+"G_mas_aus_bala_b"
+"G_mas_aus_balaM_b"
+"G_mas_aus_wrap_B"
+"G_mas_aus_wrap_gog_B"
+"G_mas_aus_bala_W"
+"G_mas_aus_balaM_W"
+"G_mas_aus_Bandanna_W"
+
+BACKPACKS:
+"B_mas_aus_Kitbag_m", "B_mas_aus_Kitbag_m_Med", "B_mas_aus_Kitbag_m_M", "B_mas_aus_Kitbag_m_R", "B_mas_aus_Kitbag_m_Exp", "B_mas_aus_Kitbag_m_AA", "B_mas_aus_Kitbag_m_AT", "B_mas_aus_Kitbag_m_LAT", "B_mas_aus_Kitbag_d", "B_mas_aus_Kitbag_d_Med", "B_mas_aus_Kitbag_d_M", "B_mas_aus_Kitbag_d_R", "B_mas_aus_Kitbag_d_Exp", "B_mas_aus_Kitbag_d_AA", "B_mas_aus_Kitbag_d_AT", "B_mas_aus_Kitbag_d_LAT", "B_mas_aus_Kitbag_g", "B_mas_aus_Kitbag_g_Med", "B_mas_aus_Kitbag_g_M", "B_mas_aus_Kitbag_g_R", "B_mas_aus_Kitbag_g_Exp", "B_mas_aus_Kitbag_g_AA", "B_mas_aus_Kitbag_g_AT", "B_mas_aus_Kitbag_g_LAT", "B_mas_aus_Kitbag_b", "B_mas_aus_Kitbag_b_Med", "B_mas_aus_Kitbag_b_M", "B_mas_aus_Kitbag_b_R", "B_mas_aus_Kitbag_b_Exp", "B_mas_aus_Kitbag_b_AA", "B_mas_aus_Kitbag_b_AT", "B_mas_aus_Kitbag_b_LAT", "B_mas_aus_Kitbag_w", "B_mas_aus_Kitbag_w2", "B_mas_aus_Kitbag_w_Med", "B_mas_aus_Kitbag_w_M", "B_mas_aus_Kitbag_w_R", "B_mas_aus_Kitbag_w_Exp", "B_mas_aus_Kitbag_w_AA", "B_mas_aus_Kitbag_w_AT", "B_mas_aus_Kitbag_w_LAT"
+
+WEAPONS:
+"launch_mas_aus_Stinger_F", "launch_mas_aus_javelin_F", "hgun_mas_aus_usp_F", "hgun_mas_aus_usp_F_sd", "arifle_mas_aus_SDAR_F", "arifle_mas_aus_SDAR_F_sd", "arifle_mas_aus_SPAR_01_blk_F", "arifle_mas_aus_SPAR_01_blk_F_sd", "arifle_mas_aus_SPAR_01_blk_F_h", "arifle_mas_aus_SPAR_01_blk_F_a", "arifle_mas_aus_SPAR_01_snd_F", "arifle_mas_aus_SPAR_01_snd_F_sd", "arifle_mas_aus_SPAR_01_snd_F_h", "arifle_mas_aus_SPAR_01_snd_F_a", "arifle_mas_aus_SPAR_01_GL_blk_F", "arifle_mas_aus_SPAR_01_GL_blk_F_sd", "arifle_mas_aus_SPAR_01_GL_blk_F_h", "arifle_mas_aus_SPAR_01_GL_snd_F", "arifle_mas_aus_SPAR_01_GL_snd_F_sd", "arifle_mas_aus_SPAR_01_GL_snd_F_h", "arifle_mas_aus_SPAR_02_blk_F", "arifle_mas_aus_SPAR_02_blk_F_sd", "arifle_mas_aus_SPAR_02_blk_F_h", "arifle_mas_aus_SPAR_02_snd_F", "arifle_mas_aus_SPAR_02_snd_F_sd", "arifle_mas_aus_SPAR_02_snd_F_h", "arifle_mas_aus_SPAR_03_blk_F", "arifle_mas_aus_SPAR_03_blk_F_sd", "arifle_mas_aus_SPAR_03_blk_F_h", "arifle_mas_aus_SPAR_03_snd_F", "arifle_mas_aus_SPAR_03_snd_F_sd", "arifle_mas_aus_SPAR_03_snd_F_h", "LMG_mas_aus_03_F", "LMG_mas_aus_03_F_h", "LMG_mas_aus_03_F_sd", "LMG_mas_aus_03C_F", "LMG_mas_aus_03C_F_sd", "LMG_mas_aus_03C_F_h", "LMG_mas_aus_02_F", "LMG_mas_aus_02_F_h", "LMG_mas_aus_02_camo_F", "LMG_mas_aus_02_camo_F_h", "srifle_mas_aus_LRR_F", "srifle_mas_aus_LRR_F_h", "LMG_mas_aus_gpmg_F", "arifle_mas_aus_mp5_F", "arifle_mas_aus_mp5_F_sd", "arifle_mas_aus_mp5_F_a", "arifle_mas_aus_mp5sd6_F", "arifle_mas_aus_mp5sd6_F_sd", "arifle_mas_aus_ef88_blk_F", "arifle_mas_aus_ef88_blk_F_sd", "arifle_mas_aus_ef88_GL_blk_F", "arifle_mas_aus_ef88_GL_blk_F_sd", "sgun_mas_aus_r870_F", "srifle_mas_aus_M110_F", "srifle_mas_aus_M110_F_sd", "srifle_mas_aus_M110_F_a", "srifle_mas_aus_M110_F_asd", "srifle_mas_aus_M110_F_w", "srifle_mas_aus_M110_F_wsd", "arifle_mas_aus_SPAR_01_w_F", "arifle_mas_aus_SPAR_01_w_F_sd", "arifle_mas_aus_SPAR_01_w_F_sda", "arifle_mas_aus_SPAR_01_GL_w_F", "arifle_mas_aus_SPAR_01_GL_w_F_sd", "arifle_mas_aus_SPAR_01_GL_w_F_sda"
+MAGS:
+"30Rnd_mas_aus_556x45_Stanag", "30Rnd_mas_aus_556x45sd_Stanag", "200Rnd_mas_aus_556x45_Drum_Mag_F", "200Rnd_mas_aus_556x45SD_Drum_Mag_F", "20Rnd_mas_aus_762x51_Mag", "20Rnd_mas_aus_762x51sd_Mag", "7Rnd_mas_aus_408_Mag", "7Rnd_mas_aus_408_APDS_Mag", "Stinger_mas_aus", "jav_AT_mas_aus", "jav_AP_mas_aus", "30Rnd_mas_aus_9x21sd_Stanag", "30Rnd_mas_aus_556x45UW_Stanag", "8Rnd_mas_aus_12Gauge_Pellets", "8Rnd_mas_aus_12Gauge_Slug"
+
+FLAGS:
+"mas_aus_add_FlagCarrier_AUS"
+
+MARKERS:
+"mas_aus_add_Marker_AUS", "b_mas_Aus_Sof"
+
+ITEMS
+"Item_U_mas_aus_B_CombatUniform_S_multi", "Item_U_mas_aus_B_CombatUniform_S_SWAT", "Item_U_mas_aus_B_CombatUniform_S_aor1", "Item_U_mas_aus_B_CombatUniform_S_aor2", "Item_U_mas_aus_B_CombatUniform_S_amcu", "Item_U_mas_aus_B_CombatUniform_S_aor3", "Item_U_mas_aus_B_CombatUniform_wint", "Item_U_mas_aus_B_CombatUniform_mcu", "Item_U_mas_aus_B_Wetsuit", "Item_U_mas_aus_B_GhillieSuit", "Vest_V_mas_aus_PlateCarrierRF_rgr", "Vest_V_mas_aus_PlateCarrierRF_green", "Vest_V_mas_aus_PlateCarrierRF_swat", "Vest_V_mas_aus_PlateCarrierRF_tan", "Vest_V_mas_aus_PlateCarrierRF_wint", "Headgear_H_mas_aus_Booniehat_mul", "Headgear_H_mas_aus_Booniehat_aor1", "Headgear_H_mas_aus_Booniehat_aor2", "Headgear_H_mas_aus_Booniehat_amcu", "Headgear_H_mas_aus_Booniehat_aor3", "Headgear_H_mas_aus_opscore", "Headgear_H_mas_aus_opscorn", "Headgear_H_mas_aus_opscore_aor1", "Headgear_H_mas_aus_opscore_aor2", "Headgear_H_mas_aus_opscore_amcu", "Headgear_H_mas_aus_opscore_g", "Headgear_H_mas_aus_opscore_b", "Headgear_H_mas_aus_opscore_t", "Weapon_arifle_mas_aus_SPAR_01_blk_F", "Weapon_arifle_mas_aus_SPAR_01_GL_blk_F", "Weapon_arifle_mas_aus_SPAR_01_snd_F", "Weapon_arifle_mas_aus_SPAR_01_GL_snd_F", "Weapon_arifle_mas_aus_SPAR_03_blk_F", "Weapon_arifle_mas_aus_SPAR_03_snd_F", "Weapon_srifle_mas_aus_LRR_F", "Weapon_LMG_mas_aus_03_F", "Weapon_LMG_mas_aus_03C_F", "Weapon_LMG_mas_aus_02_F", "Weapon_LMG_mas_aus_02_camo_F", "Weapon_arifle_mas_aus_SDAR_F", "Headgear_H_mas_aus_Beret", "Headgear_H_mas_aus_Beret_a",  "Headgear_H_mas_aus_Beret_n", "Headgear_H_mas_aus_Beret_r", "Headgear_H_mas_aus_opscore_w", "Headgear_H_mas_aus_ach", "Weapon_arifle_mas_aus_mp5_F", "Weapon_launch_mas_aus_Stinger_F", "Weapon_launch_mas_aus_javelin_F", "Weapon_LMG_mas_aus_gpmg_F", "Item_U_mas_aus_B_suite_WINT", "Item_U_mas_aus_B_suite_CQB", "Item_U_mas_aus_B_suite_VEG", "Item_U_mas_aus_B_Wetunif", "Vest_V_mas_aus_RebreatherB", "Headgear_H_mas_aus_airframe", "Headgear_H_mas_aus_airframe_d", "Headgear_H_mas_aus_airframe_v", "Headgear_H_mas_aus_airframe_m", "Headgear_H_mas_aus_airframe_w", "Headgear_H_mas_aus_mich", "Headgear_H_mas_aus_mich_b", "Headgear_H_mas_aus_mich_v", "Headgear_H_mas_aus_mich_w", "Weapon_arifle_mas_aus_ef88_blk_F", "Weapon_arifle_mas_aus_ef88_GL_blk_F", "Weapon_sgun_mas_aus_r870_F", "Weapon_srifle_mas_aus_M110_F", "Weapon_srifle_mas_aus_M110_F_a", "Weapon_srifle_mas_aus_M110_F_w", "Weapon_arifle_mas_aus_SPAR_01_w_F", "Weapon_arifle_mas_aus_SPAR_01_GL_w_F"
+
+
+
+
+class CfgUnitInsignia
+{
+	class mas_AUSSAS
+	{
+		displayName = "AUS Special Air Service Regiment";
+		author = "massi & authors in credits";
+		texture = "\mas_aus_lite\insignia\sasr_ca.paa";
+		textureVehicle = "";
+	};
+
+	class mas_AUSCDO
+	{
+		displayName = "AUS 2nd Commando";
+		author = "massi & authors in credits";
+		texture = "\mas_aus_lite\insignia\2ndCDO_ca.paa";
+		textureVehicle = "";
+	};
+
+	class mas_AUSSOER
+	{
+		displayName = "AUS SOER";
+		author = "massi & authors in credits";
+		texture = "\mas_aus_lite\insignia\soer_ca.paa";
+		textureVehicle = "";
+	};
+
+	class mas_AUSSkull
+	{
+		displayName = "AUS SOF(Skull)";
+		author = "massi & authors in credits";
+		texture = "\mas_aus_lite\insignia\Skull_ca.paa";
+		textureVehicle = "";
+	};
+};
