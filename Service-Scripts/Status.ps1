@@ -45,7 +45,7 @@ if ($UpdateNeeded -eq 1) {
     }
 }
 
-Sleep 2000
+Start-Sleep -seconds 2
 
 $command = "C:\Server Scripts\RecentlyModifiedDirectoryFinder.ps1"
 Start-Process -FilePath "Powershell.exe" -ArgumentList "-Command '$command'; pause" -Wait
