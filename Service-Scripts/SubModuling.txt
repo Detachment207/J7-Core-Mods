@@ -1,0 +1,5 @@
+open powershell
+cd into the folder containing the (soon to be) parent repo.
+use "git submodule add https://github.com/<user>/<repo> <Name for repo>" to clone that repo into this one as a submodule.
+<Name for repo> is what the folder will be called, inside the parent repo, for this sub module.
+run git submodule update --init --recursive
