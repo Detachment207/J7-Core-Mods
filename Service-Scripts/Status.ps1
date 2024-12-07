@@ -7,18 +7,24 @@ $PublishNeeded = 0
 
 cd C:\J7\J7-Mods
 $UpdateNeeded = & $gitPath status
+$LastUpdateNeededReturn = "$LastUpdateNeededReturn $UpdateNeeded"
 
 cd C:\J7\J7-Mods\Other-Core-Mods
-$UpdateNeeded = $UpdateNeeded & $gitPath status
+$UpdateNeeded = & $gitPath status
+$LastUpdateNeededReturn = "$LastUpdateNeededReturn $UpdateNeeded"
 
 cd C:\J7\J7-Mods\Member-Core-Mods
-$UpdateNeeded = $UpdateNeeded & $gitPath status
+$UpdateNeeded = & $gitPath status
+$LastUpdateNeededReturn = "$LastUpdateNeededReturn $UpdateNeeded"
 
 cd C:\J7\J7-Mods\Large-Core-Mods
-$UpdateNeeded = $UpdateNeeded & $gitPath status
+$UpdateNeeded = & $gitPath status
+$LastUpdateNeededReturn = "$LastUpdateNeededReturn $UpdateNeeded"
+
+Write-Output $LastUpdateNeededReturn
 
 # Check if the output contains "Your branch is up to date"
-if ($UpdateNeeded -like "*changes*") {
+if ($UpdateNeeded -like "*Changes*") {
     $UpdateNeeded = 1
 } else {
     $UpdateNeeded = 0
@@ -39,6 +45,7 @@ if ($UpdateNeeded -eq 1) {
     }
 }
 
-$command = "C:\Server Scripts\RecentlyModifiedDirectoryFinder.ps1"
+Sleep 2000
 
+$command = "C:\Server Scripts\RecentlyModifiedDirectoryFinder.ps1"
 Start-Process -FilePath "Powershell.exe" -ArgumentList "-Command '$command'; pause" -Wait
