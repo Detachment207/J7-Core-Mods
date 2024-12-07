@@ -1,3 +1,6 @@
 [submodule "Large-Core-Mods"]
 	path = Large-Core-Mods
 	url = https://github.com/Detachment207/Large-Core-Mods
+[submodule "Member-Core-Mods"]
+	path = Member-Core-Mods
+	url = https://github.com/Detachment207/Member-Core-Mods
