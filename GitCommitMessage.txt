@@ -1,3 +1,0 @@
-Put your commit message here.
-Say who you are (the approver of the change).
-When this file will revert to having this text after your commit is recognised by the server.
