@@ -4,3 +4,6 @@
 [submodule "Member-Core-Mods"]
 	path = Member-Core-Mods
 	url = https://github.com/Detachment207/Member-Core-Mods
+[submodule "Other-Core-Mods"]
+	path = Other-Core-Mods
+	url = https://github.com/Detachment207/Other-Core-Mods
