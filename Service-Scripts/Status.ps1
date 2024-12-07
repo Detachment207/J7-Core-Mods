@@ -1,20 +1,27 @@
 ﻿"Starting script..." | Out-File "C:\Server Scripts\Status.log" -Append
 
+$gitPath = "C:\Program Files\Git\bin\git.exe"
+
 $UpdateNeeded = 0
 $PublishNeeded = 0
 
-# Navigate to the repository directory
 cd C:\J7\J7-Mods
-
-# Get the git status output
-$gitPath = "C:\Program Files\Git\bin\git.exe"
 $UpdateNeeded = & $gitPath status
 
+cd C:\J7\J7-Mods\Other-Core-Mods
+$UpdateNeeded = $UpdateNeeded & $gitPath status
+
+cd C:\J7\J7-Mods\Member-Core-Mods
+$UpdateNeeded = $UpdateNeeded & $gitPath status
+
+cd C:\J7\J7-Mods\Large-Core-Mods
+$UpdateNeeded = $UpdateNeeded & $gitPath status
+
 # Check if the output contains "Your branch is up to date"
-if ($UpdateNeeded -like "*Your branch is up to date.*") {
-    $UpdateNeeded = 0
-} else {
+if ($UpdateNeeded -like "*changes*") {
     $UpdateNeeded = 1
+} else {
+    $UpdateNeeded = 0
 }
 
 if ($UpdateNeeded -eq 1) {
